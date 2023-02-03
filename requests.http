@@ -1,0 +1,12 @@
+POST http://localhost:8080/kafka-producer/api/v1/send-message
+Content-Type: application/json
+
+{
+  "message": "Hello World!"
+}
+
+###
+GET http://localhost:8080/kafka-producer/api/v1/healthcheck
+Accept: application/json
+
+###
